@@ -1,0 +1,48 @@
+@import url('//fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root {
+    --cor-pink: #F26177;
+    --cor-white: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+head {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2#lblBTC {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--cor-pink);
+}
+
+button#btnConsultar {
+    font-size: 16px;
+    color: var(--cor-white);
+    background-color: var(--cor-pink);
+    border: none;
+    padding: 12px 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+button#btnConsultar:hover {
+    background-color: lightpink;
+}
+
+button#btnConsultar:active {
+    transform: translateY(5px);
+}
